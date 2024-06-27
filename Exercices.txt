@@ -1,0 +1,171 @@
+Programming fundamentals:
+1. Write a program to check if a number is prime.
+2. Create a function to calculate the factorial of a number.
+3. Implement a simple calculator using functions for each operation.
+4. Design a class representing a bank account with methods for deposit, withdrawal, and balance check.
+5. Create a module with functions to convert between different units (e.g., miles to kilometers, Celsius to Fahrenheit).
+
+Data Structures and Algorithms (DSA):
+
+Arrays:
+1. Implement an algorithm to reverse an array in-place.
+2. Find the second largest element in an array.
+3. Rotate an array by k positions.
+4. Merge two sorted arrays into a single sorted array.
+5. Implement a dynamic array (similar to ArrayList in Java or list in Python).
+
+Linked lists:
+1. Implement a singly linked list with insertion and deletion operations.
+2. Reverse a linked list.
+3. Detect a cycle in a linked list.
+4. Merge two sorted linked lists.
+5. Remove the nth node from the end of a linked list.
+
+Stacks:
+1. Implement a stack using an array.
+2. Evaluate a postfix expression using a stack.
+3. Implement a min stack (a stack that supports push, pop, top, and retrieving the minimum element in constant time).
+4. Check if a string of parentheses is balanced using a stack.
+5. Implement the tower of Hanoi using a stack.
+
+Queues:
+1. Implement a queue using an array.
+2. Implement a circular queue.
+3. Reverse the first k elements of a queue.
+4. Implement a stack using two queues.
+5. Implement a queue using two stacks.
+
+Trees:
+1. Implement a binary search tree with insertion and search operations.
+2. Perform an in-order traversal of a binary tree.
+3. Find the height of a binary tree.
+4. Check if a binary tree is balanced.
+5. Implement a trie (prefix tree) with insert and search operations.
+
+Graphs:
+1. Implement graph representation using an adjacency list.
+2. Perform depth-first search (DFS) on a graph.
+3. Perform breadth-first search (BFS) on a graph.
+4. Find the shortest path in an unweighted graph using BFS.
+5. Detect a cycle in a directed graph.
+
+Sorting algorithms:
+1. Implement bubble sort.
+2. Implement quicksort.
+3. Implement merge sort.
+4. Implement heap sort.
+5. Implement counting sort.
+
+Searching algorithms:
+1. Implement binary search.
+2. Implement linear search.
+3. Implement jump search.
+4. Implement exponential search.
+5. Implement interpolation search.
+
+Backtracking:
+1. Solve the N-Queens problem.
+2. Generate all possible permutations of a string.
+3. Solve a Sudoku puzzle.
+4. Find all possible subsets of a set.
+5. Solve the rat in a maze problem.
+
+BFS (Breadth-First Search):
+1. Find the shortest path in a maze.
+2. Check if a binary tree is symmetric.
+3. Find the minimum depth of a binary tree.
+4. Find all nodes at k distance from a given node in a binary tree.
+5. Check if a graph is bipartite.
+
+Compression:
+1. Implement run-length encoding.
+2. Implement Huffman coding.
+3. Implement LZW compression.
+4. Implement delta encoding.
+5. Implement dictionary coding.
+
+Distribution:
+1. Implement the Fisher-Yates shuffle algorithm.
+2. Generate a random sample from a given array.
+3. Implement reservoir sampling.
+4. Generate random numbers according to given probabilities.
+5. Implement a load balancer simulation.
+
+Dynamic Programming (DP):
+1. Solve the fibonacci sequence problem using DP.
+2. Implement the longest common subsequence algorithm.
+3. Solve the knapsack problem.
+4. Find the longest increasing subsequence.
+5. Solve the coin change problem.
+
+Greedy:
+1. Implement the activity selection problem.
+2. Solve the fractional knapsack problem.
+3. Implement Huffman coding (greedy approach).
+4. Find the minimum number of coins to make a given amount.
+5. Implement Dijkstra's algorithm for shortest path in a weighted graph.
+
+Heap:
+1. Implement a min heap.
+2. Implement a max heap.
+3. Implement heapify operation.
+4. Find the kth largest element in an array using a heap.
+5. Implement a priority queue using a heap.
+
+Map:
+1. Implement a hash map from scratch.
+2. Find the first non-repeating character in a string using a map.
+3. Check if two strings are anagrams using a map.
+4. Implement LRU cache using a map and doubly linked list.
+5. Find all pairs of integers in an array whose sum is equal to a given number.
+
+Maths:
+1. Implement the Sieve of Eratosthenes for finding prime numbers.
+2. Calculate the power of a number using fast exponentiation.
+3. Implement the Euclidean algorithm for finding GCD.
+4. Implement a function to check if a number is a perfect square.
+5. Calculate the nth Catalan number.
+
+Matrix:
+1. Implement matrix multiplication.
+2. Rotate a matrix by 90 degrees.
+3. Find the transpose of a matrix.
+4. Search in a row-wise and column-wise sorted matrix.
+5. Implement Strassen's algorithm for matrix multiplication.
+
+Set:
+1. Implement a set data structure.
+2. Find the union and intersection of two sets.
+3. Check if a set is a subset of another set.
+4. Implement a disjoint set data structure (Union-Find).
+5. Find the power set of a given set.
+
+Streaming:
+1. Implement a moving average from a data stream.
+2. Find the median from a data stream.
+3. Implement a rate limiter.
+4. Design a data structure for LRU cache.
+5. Implement a sliding window maximum.
+
+Strings:
+1. Implement string reversal.
+2. Check if a string is a palindrome.
+3. Implement the KMP algorithm for pattern matching.
+4. Find the longest palindromic substring.
+5. Implement a function to perform string compression.
+
+Unix:
+1. Implement 'grep' functionality.
+2. Write a script to find and delete files older than N days.
+3. Implement 'tail' command functionality.
+4. Write a script to monitor system resources (CPU, memory, disk).
+5. Implement a simple version control system.
+
+Union Find:
+1. Implement the basic Union-Find data structure.
+2. Implement Union by Rank optimization.
+3. Implement Path Compression optimization.
+4. Solve the number of connected components in a graph using Union-Find.
+5. Implement Kruskal's algorithm for minimum spanning tree using Union-Find.
+
+These challenges cover a wide range of difficulty levels. Start with the ones you're most comfortable with and gradually work your way up to the more complex problems. Good luck!
