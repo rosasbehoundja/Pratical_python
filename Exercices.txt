@@ -1,171 +1,323 @@
 Programming fundamentals:
-1. Write a program to check if a number is prime.
-2. Create a function to calculate the factorial of a number.
-3. Implement a simple calculator using functions for each operation.
-4. Design a class representing a bank account with methods for deposit, withdrawal, and balance check.
-5. Create a module with functions to convert between different units (e.g., miles to kilometers, Celsius to Fahrenheit).
+
+1. Easy: Write a program to check if a number is even or odd.
+2. Medium: Create a function to generate the Fibonacci sequence up to n terms.
+3. Easy: Implement a simple calculator for basic arithmetic operations.
+4. Hard: Create a program that simulates a basic ATM system with withdrawals and deposits.
+5. Medium: Write a function to check if a string is a palindrome.
+6. Easy: Create a program that converts temperature between Celsius and Fahrenheit.
+7. Hard: Implement a basic text-based adventure game using functions and control structures.
+8. Medium: Write a program to find the prime factors of a given number.
+9. Easy: Create a function to calculate the area of different shapes (circle, triangle, rectangle).
+10. Hard: Implement a simple command-line todo list application with add, remove, and list functionalities.
 
 Data Structures and Algorithms (DSA):
 
 Arrays:
-1. Implement an algorithm to reverse an array in-place.
-2. Find the second largest element in an array.
-3. Rotate an array by k positions.
-4. Merge two sorted arrays into a single sorted array.
-5. Implement a dynamic array (similar to ArrayList in Java or list in Python).
+1. Easy: Find the maximum and minimum elements in an array.
+2. Medium: Rotate an array by k positions to the right.
+3. Hard: Find the longest increasing subsequence in an array.
+4. Easy: Remove duplicates from a sorted array in-place.
+5. Medium: Find the equilibrium index in an array (where the sum of elements on the left equals the sum on the right).
+6. Hard: Implement an efficient algorithm to find the kth smallest element in an unsorted array.
+7. Easy: Merge two sorted arrays into a single sorted array.
+8. Medium: Find the maximum sum of a contiguous subarray (Kadane's algorithm).
+9. Hard: Implement a sparse matrix using arrays and perform matrix multiplication.
+10. Medium: Find all pairs of elements in an array whose sum is equal to a given target.
 
-Linked lists:
-1. Implement a singly linked list with insertion and deletion operations.
-2. Reverse a linked list.
-3. Detect a cycle in a linked list.
-4. Merge two sorted linked lists.
-5. Remove the nth node from the end of a linked list.
+
+Linked Lists:
+1. Easy: Reverse a singly linked list.
+2. Medium: Detect a cycle in a linked list.
+3. Hard: Implement a skip list.
+4. Easy: Merge two sorted linked lists.
+5. Medium: Remove the nth node from the end of a linked list.
+6. Hard: Implement a polynomial using a linked list.
+7. Easy: Delete a node in the middle of a singly linked list.
+8. Medium: Partition a linked list around a given value.
+9. Hard: Implement a persistent linked list.
+10. Medium: Rotate a linked list by k nodes.
+11. Hard: Implement an LRU cache using a linked list and hash map.
 
 Stacks:
-1. Implement a stack using an array.
-2. Evaluate a postfix expression using a stack.
-3. Implement a min stack (a stack that supports push, pop, top, and retrieving the minimum element in constant time).
-4. Check if a string of parentheses is balanced using a stack.
-5. Implement the tower of Hanoi using a stack.
+1. Easy: Implement a stack using an array.
+2. Medium: Evaluate a postfix expression using a stack.
+3. Hard: Implement a stack of plates with a size limit for each stack.
+4. Easy: Check for balanced parentheses using a stack. Reverse a string using a stack
+5. Medium: Implement the "undo" functionality using a stack.
+6. Hard: Implement a stack that supports getMin() in O(1) time and O(1) extra space.
+7. Easy: Reverse a string using a stack.
+8. Medium: Implement the next greater element problem using a stack.
+9. Hard: Implement a stack of plates with a size limit for each stack.
+10. Medium: Sort a stack using only push, pop, peek, and isEmpty operations.
+11. Hard: Implement a browser history using stacks.
+12. Medium: Sort a stack using only push, pop, top, and isEmpty operations.
 
 Queues:
-1. Implement a queue using an array.
-2. Implement a circular queue.
-3. Reverse the first k elements of a queue.
-4. Implement a stack using two queues.
-5. Implement a queue using two stacks.
+1. Easy: Implement a queue using an array.
+2. Medium: Implement a circular queue.
+3. Hard: Implement a double-ended queue (deque).
+4. Easy: Reverse the first k elements of a queue.
+5. Medium: Implement a stack using queues. Implement a queue using stacks
+6. Hard: Implement a queue using stacks. Implement a priority queue using a binary heap.
+7. Easy: Generate binary numbers from 1 to n using a queue.
+8. Medium: Implement a priority queue using an array.
+9. Hard: Implement a queue that supports getMin() in O(1) time.
+10. Medium: Implement a sliding window maximum using a deque.
+11. Hard: Implement a sliding window maximum using a deque.
+12. Medium: Implement a queue using a linked list.
 
-Trees:
-1. Implement a binary search tree with insertion and search operations.
-2. Perform an in-order traversal of a binary tree.
-3. Find the height of a binary tree.
-4. Check if a binary tree is balanced.
-5. Implement a trie (prefix tree) with insert and search operations.
+Trees and Graphs:
+1. Easy: Implement a binary search tree with insert and search operations.
+2. Medium: Find the lowest common ancestor in a binary tree.
+3. Hard: Implement a red-black tree.
+4. Easy: Perform an in-order traversal of a binary tree.
+5. Medium: Check if a binary tree is balanced.
+6. Hard: Implement Dijkstra's algorithm for finding shortest paths in a graph.
+7. Easy: Count the number of leaves in a binary tree.
+8. Medium: Implement a trie (prefix tree) with insert and search operations.
+9. Hard: Find the shortest path in a maze using A* algorithm.
+10. Medium: Detect a cycle in an undirected graph.
 
-Graphs:
-1. Implement graph representation using an adjacency list.
-2. Perform depth-first search (DFS) on a graph.
-3. Perform breadth-first search (BFS) on a graph.
-4. Find the shortest path in an unweighted graph using BFS.
-5. Detect a cycle in a directed graph.
-
-Sorting algorithms:
-1. Implement bubble sort.
-2. Implement quicksort.
-3. Implement merge sort.
-4. Implement heap sort.
-5. Implement counting sort.
-
-Searching algorithms:
-1. Implement binary search.
-2. Implement linear search.
-3. Implement jump search.
-4. Implement exponential search.
-5. Implement interpolation search.
+Sorting and Searching Algorithms:
+1. Easy: Implement bubble sort.
+2. Medium: Implement quicksort.
+3. Hard: Implement radix sort.
+4. Easy: Perform a linear search in an array.
+5. Medium: Implement binary search in a sorted array.
+6. Hard: Implement a sorting algorithm for nearly sorted data.
+7. Easy: Implement selection sort.
+8. Medium: Implement merge sort.
+9. Hard: Implement external sort for large datasets.
+10. Medium: Implement jump search.
 
 Backtracking:
-1. Solve the N-Queens problem.
-2. Generate all possible permutations of a string.
-3. Solve a Sudoku puzzle.
-4. Find all possible subsets of a set.
-5. Solve the rat in a maze problem.
+1. Easy: Generate all possible subsets of a set.
+2. Medium: Solve the N-Queens problem.
+3. Hard: Solve the Sudoku puzzle.
+4. Easy: Generate all permutations of a string.
+5. Medium: Solve the Knight's Tour problem.
+6. Hard: Find all Hamiltonian cycles in a graph.
+7. Easy: Generate all possible combinations of parentheses.
+8. Medium: Solve the subset sum problem.
+9. Hard: Solve the graph coloring problem.
+10. Medium: Generate all possible IP addresses from a given string.
 
 BFS (Breadth-First Search):
-1. Find the shortest path in a maze.
-2. Check if a binary tree is symmetric.
-3. Find the minimum depth of a binary tree.
-4. Find all nodes at k distance from a given node in a binary tree.
-5. Check if a graph is bipartite.
+1. Easy: Implement BFS for a graph.
+2. Medium: Find the shortest path in an unweighted graph using BFS.
+3. Hard: Find the minimum number of moves to solve a Rubik's cube using BFS.
+4. Easy: Print level order traversal of a binary tree.
+5. Medium: Find the shortest path in a maze using BFS.
+6. Hard: Implement a word ladder using BFS.
+7. Easy: Check if a binary tree is symmetric using BFS.
+8. Medium: Find the minimum depth of a binary tree using BFS.
+9. Hard: Implement a sliding puzzle solver using BFS.
+10. Medium: Find all nodes at k distance in a binary tree.
 
 Compression:
-1. Implement run-length encoding.
-2. Implement Huffman coding.
-3. Implement LZW compression.
-4. Implement delta encoding.
-5. Implement dictionary coding.
+1. Easy: Implement run-length encoding.
+2. Medium: Implement Huffman coding.
+3. Hard: Implement LZW compression.
+4. Easy: Implement basic string compression.
+5. Medium: Implement delta encoding for time series data.
+6. Hard: Implement arithmetic coding.
+7. Easy: Implement bit-level operations for data compression.
+8. Medium: Implement dictionary-based compression.
+9. Hard: Implement JPEG-like image compression.
+10. Medium: Implement diff and patch operations for text compression.
 
 Distribution:
-1. Implement the Fisher-Yates shuffle algorithm.
-2. Generate a random sample from a given array.
-3. Implement reservoir sampling.
-4. Generate random numbers according to given probabilities.
-5. Implement a load balancer simulation.
+1. Easy: Implement a uniform distribution generator.
+2. Medium: Implement a normal distribution generator using Box-Muller transform.
+3. Hard: Implement a Poisson distribution generator.
+4. Easy: Generate random numbers with a given probability distribution.
+5. Medium: Implement a binomial distribution generator.
+6. Hard: Implement a Metropolis-Hastings algorithm for sampling from a distribution.
+7. Easy: Implement a discrete uniform distribution generator.
+8. Medium: Implement an exponential distribution generator.
+9. Hard: Implement a Gaussian mixture model.
+10. Medium: Implement a chi-squared distribution generator.
+
 
 Dynamic Programming (DP):
-1. Solve the fibonacci sequence problem using DP.
-2. Implement the longest common subsequence algorithm.
-3. Solve the knapsack problem.
-4. Find the longest increasing subsequence.
-5. Solve the coin change problem.
+1. Easy: Implement the Fibonacci sequence using DP.
+2. Medium: Solve the knapsack problem using DP.
+3. Hard: Find the longest common subsequence of three strings.
+4. Easy: Calculate the nth Catalan number using DP.
+5. Medium: Solve the coin change problem using DP.
+6. Hard: Implement the Travelling Salesman Problem using DP.
+7. Easy: Find the maximum sum of a contiguous subarray (Kadane's algorithm).
+8. Medium: Count the number of ways to reach the nth stair.
+9. Hard: Solve the matrix chain multiplication problem.
+10. Medium: Find the length of the longest palindromic subsequence.
+
+Graph:
+1. Easy: Implement depth-first search (DFS) for a graph.
+2. Medium: Find the shortest path in a weighted graph (Dijkstra's algorithm).
+3. Hard: Find strongly connected components in a directed graph (Kosaraju's algorithm).
+4. Easy: Check if a graph is bipartite.
+5. Medium: Find the minimum spanning tree of a graph (Kruskal's algorithm).
+6. Hard: Implement the Ford-Fulkerson algorithm for maximum flow.
+7. Easy: Count the number of islands in a 2D grid.
+8. Medium: Implement topological sorting for a directed acyclic graph.
+9. Hard: Find the articulation points in a graph.
+10. Medium: Detect a cycle in a directed graph.
 
 Greedy:
-1. Implement the activity selection problem.
-2. Solve the fractional knapsack problem.
-3. Implement Huffman coding (greedy approach).
-4. Find the minimum number of coins to make a given amount.
-5. Implement Dijkstra's algorithm for shortest path in a weighted graph.
+1. Easy: Implement the coin change problem using a greedy approach.
+2. Medium: Implement Huffman coding (greedy part).
+3. Hard: Solve the job sequencing problem with deadlines.
+4. Easy: Implement the fractional knapsack problem.
+5. Medium: Find the minimum number of platforms required for a railway station.
+6. Hard: Implement Prim's algorithm for minimum spanning tree.
+7. Easy: Implement activity selection problem.
+8. Medium: Find the minimum number of coins to make a given value.
+9. Hard: Implement Kruskal's algorithm for minimum spanning tree.
+10. Medium: Solve the Egyptian fraction problem.
 
 Heap:
-1. Implement a min heap.
-2. Implement a max heap.
-3. Implement heapify operation.
-4. Find the kth largest element in an array using a heap.
-5. Implement a priority queue using a heap.
+1. Easy: Implement a min heap.
+2. Medium: Implement heapsort.
+3. Hard: Implement a median heap.
+4. Easy: Find the kth largest element in an array using a heap.
+5. Medium: Merge k sorted arrays using a heap.
+6. Hard: Implement a sliding window median using heaps.
+7. Easy: Convert a binary tree to a heap.
+8. Medium: Implement a priority queue using a heap.
+9. Hard: Implement Huffman coding using a heap.
+10. Medium: Find the smallest range containing elements from k lists.
 
 Map:
-1. Implement a hash map from scratch.
-2. Find the first non-repeating character in a string using a map.
-3. Check if two strings are anagrams using a map.
-4. Implement LRU cache using a map and doubly linked list.
-5. Find all pairs of integers in an array whose sum is equal to a given number.
+1. Easy: Implement a basic hash map.
+2. Medium: Implement a least recently used (LRU) cache using a hash map.
+3. Hard: Implement a concurrent hash map.
+4. Easy: Find the first non-repeating character in a string using a hash map.
+5. Medium: Implement a hash map with linear probing.
+6. Hard: Implement a perfect hash function for a static set of keys.
+7. Easy: Count the frequency of words in a given text using a hash map.
+8. Medium: Implement a hash map with chaining.
+9. Hard: Implement a distributed hash table.
+10. Medium: Design a data structure that supports insert, delete, getRandom in O(1) time.
 
-Maths:
-1. Implement the Sieve of Eratosthenes for finding prime numbers.
-2. Calculate the power of a number using fast exponentiation.
-3. Implement the Euclidean algorithm for finding GCD.
-4. Implement a function to check if a number is a perfect square.
-5. Calculate the nth Catalan number.
+Mathematics:
+1. Easy: Implement the Sieve of Eratosthenes for prime number generation.
+2. Medium: Implement the fast exponentiation algorithm.
+3. Hard: Implement the Miller-Rabin primality test.
+4. Easy: Calculate the greatest common divisor using the Euclidean algorithm.
+5. Medium: Implement the Chinese Remainder Theorem.
+6. Hard: Implement the FFT (Fast Fourier Transform) algorithm.
+7. Easy: Calculate the factorial of a large number.
+8. Medium: Implement a basic calculator that can evaluate expressions.
+9. Hard: Implement the Gaussian elimination method for solving linear equations.
+10. Medium: Calculate the nth Fibonacci number in logarithmic time.
 
 Matrix:
-1. Implement matrix multiplication.
-2. Rotate a matrix by 90 degrees.
-3. Find the transpose of a matrix.
-4. Search in a row-wise and column-wise sorted matrix.
-5. Implement Strassen's algorithm for matrix multiplication.
+1. Easy: Implement matrix addition and subtraction.
+2. Medium: Implement matrix multiplication.
+3. Hard: Implement Strassen's algorithm for matrix multiplication.
+4. Easy: Rotate a matrix by 90 degrees.
+5. Medium: Find the determinant of a matrix.
+6. Hard: Implement Gaussian elimination for solving systems of linear equations.
+7. Easy: Transpose a matrix.
+8. Medium: Search in a row-wise and column-wise sorted matrix.
+9. Hard: Implement the Floyd-Warshall algorithm using matrix operations.
+10. Medium: Find the saddle point in a matrix.
+
+Search:
+1. Easy: Implement linear search.
+2. Medium: Implement binary search.
+3. Hard: Implement interpolation search.
+4. Easy: Search in a rotated sorted array.
+5. Medium: Implement jump search.
+6. Hard: Implement A* search algorithm.
+7. Easy: Find the peak element in an array.
+8. Medium: Search in a 2D sorted matrix.
+9. Hard: Implement Fibonacci search.
+10. Medium: Implement exponential search.
 
 Set:
-1. Implement a set data structure.
-2. Find the union and intersection of two sets.
-3. Check if a set is a subset of another set.
-4. Implement a disjoint set data structure (Union-Find).
-5. Find the power set of a given set.
+1. Easy: Implement a set using an array.
+2. Medium: Implement set operations (union, intersection, difference).
+3. Hard: Implement a disjoint set data structure (Union-Find).
+4. Easy: Find the symmetric difference between two sets.
+5. Medium: Implement a multiset.
+6. Hard: Implement a persistent set data structure.
+7. Easy: Check if a set is a subset of another set.
+8. Medium: Implement a bit vector to represent a set.
+9. Hard: Implement a concurrent set data structure.
+10. Medium: Find the power set of a given set.
+
+Sort:
+1. Easy: Implement bubble sort.
+2. Medium: Implement quicksort.
+3. Hard: Implement radix sort.
+4. Easy: Implement selection sort.
+5. Medium: Implement merge sort.
+6. Hard: Implement Tim sort.
+7. Easy: Implement insertion sort.
+8. Medium: Implement heap sort.
+9. Hard: Implement bucket sort.
+10. Medium: Implement shell sort.
 
 Streaming:
-1. Implement a moving average from a data stream.
-2. Find the median from a data stream.
-3. Implement a rate limiter.
-4. Design a data structure for LRU cache.
-5. Implement a sliding window maximum.
+1. Easy: Implement a moving average from a data stream.
+2. Medium: Implement the reservoir sampling algorithm.
+3. Hard: Implement the Count-Min Sketch algorithm.
+4. Easy: Find the median from a data stream.
+5. Medium: Implement the HyperLogLog algorithm for cardinality estimation.
+6. Hard: Implement a streaming algorithm for finding heavy hitters.
+7. Easy: Implement a fixed-size window sum over a stream of numbers.
+8. Medium: Implement the Misra-Gries algorithm for frequent items.
+9. Hard: Implement a streaming algorithm for k-means clustering.
+10. Medium: Implement a Bloom filter.
 
 Strings:
-1. Implement string reversal.
-2. Check if a string is a palindrome.
-3. Implement the KMP algorithm for pattern matching.
-4. Find the longest palindromic substring.
-5. Implement a function to perform string compression.
+1. Easy: Implement string reversal.
+2. Medium: Implement the KMP (Knuth-Morris-Pratt) string matching algorithm.
+3. Hard: Implement the Aho-Corasick algorithm for pattern matching.
+4. Easy: Check if a string is a palindrome.
+5. Medium: Implement the Rabin-Karp algorithm for string matching.
+6. Hard: Implement the Burrows-Wheeler transform.
+7. Easy: Implement string compression.
+8. Medium: Find the longest palindromic substring.
+9. Hard: Implement a suffix array and LCP array.
+10. Medium: Implement the Z algorithm for pattern matching.
+
+Tree:
+1. Easy: Implement in-order traversal of a binary tree.
+2. Medium: Implement a balanced binary search tree (AVL or Red-Black).
+3. Hard: Implement a B-tree.
+4. Easy: Find the height of a binary tree.
+5. Medium: Serialize and deserialize a binary tree.
+6. Hard: Implement a segment tree for range queries.
+7. Easy: Check if a binary tree is symmetric.
+8. Medium: Implement a trie (prefix tree).
+9. Hard: Implement a Fenwick tree (Binary Indexed Tree).
+10. Medium: Find the lowest common ancestor in a binary tree.
 
 Unix:
-1. Implement 'grep' functionality.
-2. Write a script to find and delete files older than N days.
-3. Implement 'tail' command functionality.
-4. Write a script to monitor system resources (CPU, memory, disk).
-5. Implement a simple version control system.
+1. Easy: Implement 'cat' command functionality.
+2. Medium: Implement 'grep' command functionality.
+3. Hard: Implement a basic shell with piping.
+4. Easy: Implement 'wc' (word count) command functionality.
+5. Medium: Implement 'find' command functionality.
+6. Hard: Implement a simple version control system.
+7. Easy: Implement 'ls' command functionality.
+8. Medium: Implement 'sed' command functionality.
+9. Hard: Implement a basic process scheduler.
+10. Medium: Implement 'awk' command functionality.
 
 Union Find:
-1. Implement the basic Union-Find data structure.
-2. Implement Union by Rank optimization.
-3. Implement Path Compression optimization.
-4. Solve the number of connected components in a graph using Union-Find.
-5. Implement Kruskal's algorithm for minimum spanning tree using Union-Find.
+1. Easy: Implement basic Union-Find data structure.
+2. Medium: Implement Union-Find with path compression.
+3. Hard: Implement Union-Find with both path compression and union by rank.
+4. Easy: Detect cycle in an undirected graph using Union-Find.
+5. Medium: Implement Kruskal's algorithm using Union-Find.
+6. Hard: Implement a dynamic connectivity problem solver using Union-Find.
+7. Easy: Count the number of connected components in an undirected graph.
+8. Medium: Implement Union-Find for 2D grid problems.
+9. Hard: Implement a Union-Find structure that supports undo operations.
+10. Medium: Solve the percolation problem using Union-Find.
 
-These challenges cover a wide range of difficulty levels. Start with the ones you're most comfortable with and gradually work your way up to the more complex problems. Good luck!
+These challenges cover a wide range of difficulties and topics in computer science and algorithms. Working through these will significantly improve your programming and problem-solving skills. Remember to approach each problem step-by-step, and don't hesitate to research and learn as you go. Good luck!
